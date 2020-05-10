@@ -25,6 +25,7 @@ div.header {
 div.header:hover {
    background-color: rgb(59,0,0);
    height: 30px;
+   transition: 800ms ease 0.3s;
 }
 
 div.header > h1 {
