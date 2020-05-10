@@ -1,0 +1,84 @@
+* {
+   margin:0;
+   padding:0;
+}
+
+body {
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+pre{
+            display: block;
+            font-family: monospace;
+            white-space: pre;
+            margin-top: 10px;
+	    margin-right: 65px;
+}
+
+div.header {
+   background-color: rgb(0, 59, 0);
+   height: 30px; 
+}
+
+div.header:hover {
+   background-color: rgb(59,0,0);
+   height: 30px;
+}
+
+div.header > h1 {
+   color: green;
+   text-align: center;
+   font-family: monospace;
+   padding: 6px;
+   font-size: 16px;
+}
+
+div.header > h1:hover {
+   color: red;
+   font-size: 16px;
+}
+
+.hrs {
+   text-align: -webkit-center;
+}
+
+hr {
+   display: inline-block;
+   width: 400px;
+   border-bottom-width: thick;
+}
+
+span {
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(0, 59, 0);
+    transition: 800ms ease 0.5s;
+}
+
+.cta-button {
+    width: 798px;
+    display: block;
+    line-height: 1;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 59, 0);
+    border-image: initial;
+    padding: 0.5em 1em;
+    margin: 0px 1rem;
+    color: whitesmoke;
+}
+
+::selection{background:red;color:white;}
