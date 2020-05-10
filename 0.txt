@@ -1,0 +1,15 @@
+#############CODE#############
+#!/bin/bash
+# Say Hello
+echo -e "\e[1;32;4;44m0paste.sh [fuck pastebin.com] project by FrankyDonkey\e[0m"
+# Display the fucking links
+get_it=$(curl --silent https://pastebin.com/archive | grep 'class="i_p0"' | tr -d " \b\t" | cut -b 51-59)
+# looping and scraping it
+for i in $get_it
+do
+  curl --silent https://pastebin.com/raw${i} >> ./${i}
+  $(which echo) -e "https://pastebin.com/raw${i} \e[1;31mFucked!\e[0m"
+  sleep 2
+done
+#############CODE#############
+#Using: url here:)
