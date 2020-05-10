@@ -39,6 +39,7 @@ div.header > h1 {
 div.header > h1:hover {
    color: red;
    font-size: 16px;
+   transition: 800ms ease 0.3s;
 }
 
 .hrs {
